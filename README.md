@@ -26,10 +26,10 @@ npm run dev
 > vue2.x+ vue-cli+nodejs+ express+ mongodb+ vue-router+ vuex+ axios+es6 + better-scroll
 
 # 展示
-https://github.com/bailingshiva/hgStore/tree/master/static/index.png
-https://github.com/bailingshiva/hgStore/tree/master/static/list.png
-https://github.com/bailingshiva/hgStore/tree/master/static/detail.png
-https://github.com/bailingshiva/hgStore/tree/master/static/goods.png
-https://github.com/bailingshiva/hgStore/tree/master/static/category.png
+(https://github.com/bailingshiva/hgStore/tree/master/static/index.png)
+(https://github.com/bailingshiva/hgStore/tree/master/static/list.png)
+(https://github.com/bailingshiva/hgStore/tree/master/static/detail.png)
+(https://github.com/bailingshiva/hgStore/tree/master/static/goods.png)
+(https://github.com/bailingshiva/hgStore/tree/master/static/category.png)
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
