@@ -5,22 +5,31 @@
 ## Build Setup
 
 ``` bash
-# install dependencies
+# 安装mongodb数据库,然后启动数据库
+mongod --dbpath=数据库存放路径
+
+# 进入到项目文件，安装依赖包
 npm install
 
-# serve with hot reload at localhost:8080
+# 运行nodeJs服务器
+npm start
+
+# 运行项目
 npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 # 说明
 
-> 一个通过vue2+mongoose+nodejs编写的简单优惠券运用，包含前台和后台，主要练习为主，用户体验上可能有点不是够友好，有时间进一步优化
+> 一个通过vue2+mongoose+nodejs编写的简单优惠券运用，包含前台和后台，主要练习为主，功能比较简单，有时间进一步优化
 
+# 技术
 
+> vue2.x+ vue-cli+nodejs+ express+ mongodb+ vue-router+ vuex+ axios+es6 + better-scroll
+
+# 展示
+https://github.com/bailingshiva/hgStore/tree/master/static/index.png
+https://github.com/bailingshiva/hgStore/tree/master/static/list.png
+https://github.com/bailingshiva/hgStore/tree/master/static/detail.png
+https://github.com/bailingshiva/hgStore/tree/master/static/goods.png
+https://github.com/bailingshiva/hgStore/tree/master/static/category.png
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
