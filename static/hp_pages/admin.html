@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<title>惠品优购</title>
+<link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="styles/styles.css">
+<!--[if lt IE 9]>
+  <script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+  <script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script src="jscript/jquery-1.10.2.min.js"></script>
+<script src="jscript/bootstrap.min.js"></script>
+<script type="text/javascript" src="jscript/common.js"></script>
+</head>
+<body>
+<div class="manage-menu hidden-xs">
+  <div class="manage-logo"><a href="#"><img src="images/manage-logo.png" /></a> </div>
+  <div class="manage-menu-list"> <a href="#">账户管理中心</a><a href="#">产品类目管理</a><a href="#">产品管理</a> </div>
+</div>
+<div class="manage-content">
+  <div class="manage-top">
+    <div class="manage-menu-btn visible-xs pull-left"><span></span></div>
+    <div class="manage-option manage-option-sort"><a href="#"><em></em><span class="hidden-xs">排序方式</span><i></i></a></div>
+    <div class="product-add"><a href="#"><em>+</em><span class="hidden-xs">添加账户</span><i></i></a></div>
+    <div class="manage-search pull-right">
+      <div>
+        <input class="hidden-xs" placeholder="搜索产品" type="text" />
+        <a href="#"></a></div>
+    </div>
+    <div class="manage-top-slider"> 
+      <div class="manage-slider-sort"><a href="#">上新时间</a><a href="#">产品类目管理</a><a href="#">产品管理</a> </div>
+    </div>
+  </div>
+  <div class="manage-admin">
+    <div class="manage-list-tag hidden-xs"><span class="col-xs-2"><input type="checkbox" />全选</span> <span class="col-xs-3">账户名称</span> <span class="col-xs-3">创建时间</span><span class="col-xs-4">操作</span> </div>
+    <div class="manage-list-item clearfix admin-list-item">
+    <span class="col-xs-2"><input type="checkbox" /></span>
+    <span class="col-xs-3">admin</span>
+    <span class="col-xs-3">2017-03-11 10:12:36 23:47</span>
+    <span class="col-xs-4"><a href="javascript:void(0)">修改</a><a href="javascript:void(0)">删除</a></span>
+    </div>
+    <div class="manage-list-item clearfix admin-list-item">
+    <span class="col-xs-2"><input type="checkbox" /></span>
+    <span class="col-xs-3">admin</span>
+    <span class="col-xs-3">2017-03-11 10:12:36 23:47</span>
+    <span class="col-xs-4"><a href="javascript:void(0)">修改</a><a href="javascript:void(0)">删除</a></span>
+    </div>
+  </div>
+</div>
+<!--弹出框-->
+<div style="display:none" class="popup">
+  <div style="display:none;" class="popup-creatproduct col-xs-11 col-sm-7">
+    <div class="manage-creatproduct-top clearfix">
+      <div class="manage-creatproduct-img col-xs-12 col-sm-6"><a href="">添加图片</a></div>
+      <div class="manage-creatproduct-attr col-xs-12 col-sm-6">
+      <p><span>产品名称</span><input type="text" /></p>
+      <p><span>产品编码</span><input type="text" /></p>
+      <p><span>产品链接</span><input type="text" /></p>
+      <p><span>类目</span><input type="text" /></p>
+      <p><span>产品价格</span><input type="text" /></p>
+      <p><span>优惠券价值</span><input type="text" /></p>
+      <p><span>优惠券数量</span><input type="text" /></p>
+      <p><span>推荐理由</span><input type="text" /></p>
+      </div>
+    </div>
+    <div class="popup-creatproduct-btn"><a class="btn btn-danger" href="#">创建产品</a><a class="btn btn-link product-cansel" href="#">取消</a></div>
+  </div>
+  <div style="display:none;" class="popup-creatcategory col-xs-11 col-sm-7">
+  <div class="popup-creatcategory-tag"><span class="popup-creatcategory-active col-xs-6">创建一级类目</span><span class="col-xs-6">创建二级类目</span></div>
+  <div class="popup-creatcategory-con">
+  <div class="popup-creatcategory-first"><input type="text" /><a href="#">创建一级类目</a></div>
+  <div style="display:none" class="popup-creatcategory-second"><input type="text" /><br/><input type="text" /><br/><a href="#">创建二级级类目</a></div>
+  </div>
+  </div>
+</div>
+<!--end 弹出框-->
+</body>
+</html>
